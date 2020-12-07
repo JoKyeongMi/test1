@@ -1,0 +1,20 @@
+package test1;
+import java.util.*;
+
+class TestFile {
+
+public static void main(String[] args) {
+  int num = 0;
+  Scanner sc = new Scanner(System.in);
+  System.out.print("숫자를 입력하시오.");
+  num = sc.nextInt();
+  msg(num);
+  }
+  
+public static void msg(int num) {
+  System.out.println(num+"단");
+  for(int a=1; a<=9; a++) {
+   System.out.println(num+"*"+a+"="+num*a);
+   }
+ }
+}
